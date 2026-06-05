@@ -26,7 +26,7 @@ My personal repository for competitive programming training, focusing on the **I
 
 * **Language:** C++ (GCC)
 * **Platform:** [Codeforces](https://codeforces.com)
-* **Editor:** VS Code
+* **Editor:** VS Code / Vim / NeoVim
 
 ## 📝 Rules & Conventions
 
