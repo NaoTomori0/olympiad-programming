@@ -13,7 +13,7 @@ My personal repository for competitive programming training, focusing on the **I
 
 | Topic | Status | Solved |
 | :--- | :---: | :---: |
-| 🔹 Z-function | 🔄 In Progress | 7 / 18 |
+| 🔹 Z-function | 🔄 In Progress | 8 / 18 |
 | 🔹 Suffix Array | ⏳ Not Started | 0 / 11 |
 | 🔹 Segment Tree, Part 1 | ⏳ Not Started | 0 / 17 |
 | 🔹 Segment Tree, Part 2 | ⏳ Not Started | 0 / 18 |
