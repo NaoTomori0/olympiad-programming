@@ -13,11 +13,11 @@ My personal repository for competitive programming training, focusing on the **I
 
 | Topic | Status | Solved |
 | :--- | :---: | :---: |
-| 🔹 Z-function | 🔄 In Progress | 8 / 18 |
+| 🔹 Z-function | 🔄 In Progress | 17 / 18 |
 | 🔹 Suffix Array | ⏳ Not Started | 0 / 11 |
 | 🔹 Segment Tree, Part 1 | ⏳ Not Started | 0 / 17 |
 | 🔹 Segment Tree, Part 2 | ⏳ Not Started | 0 / 18 |
-| 🔹 Binary Search | ⏳ Not Started | 0 / 22 |
+| 🔹 Binary Search | ✅ Resolved | 22 / 22 |
 | 🔹 Disjoint Set Union (DSU) | ⏳ Not Started | 0 / 18 |
 | 🔹 Introduction to Graph Theory | ⏳ Not Started | 0 / 20 |
 | 🔹 Two Pointers Method | ⏳ Not Started | 0 / 19 |

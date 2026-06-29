@@ -1,11 +1,11 @@
-#include <bits/stdc++.h> // Подключает сразу все библиотеки C++
+#include <bits/stdc++.h>
 using namespace std;
 
-#define int long long // Защита от переполнения int (из-за этого часто горят баллы)
+#define int long long // Защита от переполнения int
 
 void solve()
 {
-    // Твой код здесь
+    // Код
 }
 
 int32_t main()
