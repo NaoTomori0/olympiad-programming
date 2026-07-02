@@ -20,7 +20,7 @@ My personal repository for competitive programming training, focusing on the **I
 | 🔹 Binary Search | ✅ Resolved | 22 / 22 |
 | 🔹 Disjoint Set Union (DSU) | ⏳ Not Started | 0 / 18 |
 | 🔹 Introduction to Graph Theory | ⏳ Not Started | 0 / 20 |
-| 🔹 Two Pointers Method | ⏳ Not Started | 0 / 19 |
+| 🔹 Two Pointers Method | 🔄 In Progress | 12 / 19 |
 
 ## 🛠️ Tech Stack
 
