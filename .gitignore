@@ -33,5 +33,5 @@
 
 /.vscode
 /output
-/archive
-scratch.cpp
+# /archive
+# scratch.cpp
