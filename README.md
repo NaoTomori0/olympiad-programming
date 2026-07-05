@@ -15,12 +15,12 @@ My personal repository for competitive programming training, focusing on the **I
 | :--- | :---: | :---: |
 | 🔹 Z-function | 🔄 In Progress | 17 / 18 |
 | 🔹 Suffix Array | ⏳ Not Started | 0 / 11 |
-| 🔹 Segment Tree, Part 1 | ⏳ Not Started | 0 / 17 |
+| 🔹 Segment Tree, Part 1 | 🔄 In Progress | 0 / 17 |
 | 🔹 Segment Tree, Part 2 | ⏳ Not Started | 0 / 18 |
 | 🔹 Binary Search | ✅ Resolved | 22 / 22 |
 | 🔹 Disjoint Set Union (DSU) | ⏳ Not Started | 0 / 18 |
 | 🔹 Introduction to Graph Theory | ⏳ Not Started | 0 / 20 |
-| 🔹 Two Pointers Method | 🔄 In Progress | 13 / 19 |
+| 🔹 Two Pointers Method | ✅ Resolved | 19 / 19 |
 
 ## 🛠️ Tech Stack
 

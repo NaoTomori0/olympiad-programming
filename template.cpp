@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define int long long // Защита от переполнения int
+#define int long long
 
 void solve()
 {
@@ -10,7 +10,6 @@ void solve()
 
 int32_t main()
 {
-    // Включаем супер-быстрый ввод-вывод для C++
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
