@@ -19,7 +19,7 @@ My personal repository for competitive programming training, focusing on the **I
 | 🔹 Segment Tree, Part 2 | ⏳ Not Started | 0 / 18 |
 | 🔹 Binary Search | ✅ Resolved | 22 / 22 |
 | 🔹 Disjoint Set Union (DSU) | ⏳ Not Started | 0 / 18 |
-| 🔹 Introduction to Graph Theory | ⏳ Not Started | 0 / 20 |
+| 🔹 Introduction to Graph Theory | 🔄 In Progress | 0 / 20 |
 | 🔹 Two Pointers Method | ✅ Resolved | 19 / 19 |
 
 ## 🛠️ Tech Stack
