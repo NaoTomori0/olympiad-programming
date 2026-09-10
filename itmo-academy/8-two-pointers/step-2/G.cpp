@@ -32,27 +32,14 @@ using namespace std;
 
 #define int long long // Защита от переполнения int
 
-int HOD(int x, int y)
-{
-
-    while (x > 0 && y > 0)
-    {
-        if (x > y)
-            x %= y;
-        else
-            y %= x;
-    }
-    return x + y;
-}
-
-struct mystack
+struct TwoStackQueue
 {
     vector<int> s, snod;
 
     void push(int x)
     {
         s.push_back(x);
-        snod.push_back(HOD(x, snod.empty() ? x : snod.back()));
+        snod.push_back(gcd(x, snod.empty() ? x : snod.back()));
     }
 
     int pop()
@@ -74,7 +61,7 @@ struct mystack
     }
 };
 
-mystack s1, s2;
+TwoStackQueue s1, s2;
 
 void add(int x)
 {
@@ -92,7 +79,7 @@ void remove()
 
 bool good()
 {
-    return HOD(s1.get_cur_nod(), s2.get_cur_nod()) == 1;
+    return gcd(s1.get_cur_nod(), s2.get_cur_nod()) == 1;
 }
 
 void solve()

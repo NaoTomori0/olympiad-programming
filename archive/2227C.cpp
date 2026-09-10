@@ -89,17 +89,49 @@ using namespace std;
 
 #define int long long // Защита от переполнения int (из-за этого часто горят баллы)
 
+void print(list<int> &a)
+{
+    while (!a.empty())
+    {
+        cout << a.back() << ' ';
+        a.pop_back();
+    }
+}
+
 void solve()
 {
-    // Твой код здесь
+    int n;
+    cin >> n;
+    list<int> dl6, drugie, chet, dl3;
+    for (int i = 0; i < n; i++)
+    {
+        int x;
+        cin >> x;
+        if (x % 6 == 0)
+            dl6.push_back(x);
+        else if (x % 2 == 0)
+            chet.push_back(x);
+        else if (x % 3 == 0)
+            dl3.push_back(x);
+        else
+            drugie.push_back(x);
+    }
+    print(dl6);
+    print(dl3);
+    print(drugie);
+    print(chet);
+    cout << '\n';
 }
 
 int32_t main()
 {
-    // Включаем супер-быстрый ввод-вывод для C++
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-
-    solve();
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        solve();
+    }
     return 0;
 }

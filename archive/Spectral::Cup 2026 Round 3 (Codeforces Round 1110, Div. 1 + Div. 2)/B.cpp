@@ -93,26 +93,14 @@ void solve()
     vector<int> a(n);
     for (auto &i : a)
         cin >> i;
+    sort(a.begin(), a.end());
+    for (auto &i : a)
+        i -= c;
+    for (int i = 0; i < n / 2; i++)
+        a[i] = max(a[i], 0LL);
 
-    // if (c == 0)
-    // {
-    //     int r = 0;
-    //     for (auto i : a)
-    //         r += i;
-    //     cout << r << '\n';
-    //     return;
-    // }
-
-    for (int i = 0; i < n; i++)
-    {
-        if (i < n - 1 && c && max(i, i + 1) > i)
-        {
-            res += max(a[i], a[i + 1]) - c;
-            i++;
-        }
-        else
-            res += a[i] - c;
-    }
+    for (auto &i : a)
+        res += i;
     cout << res << '\n';
 }
 

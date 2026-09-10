@@ -87,6 +87,14 @@ void solve()
     }
 
     sort(a.begin(), a.end());
+    int min_pa = cur_sum - y, max_pa = cur_sum - x, res = 0;
+    for (int i = 0; i < n; i++)
+    {
+        auto it1 = lower_bound(a.begin() + i + 1, a.end(), min_pa - a[i]);
+        auto it2 = upper_bound(a.begin() + i + 1, a.end(), max_pa - a[i]);
+        res += (it2 - it1);
+    }
+    cout << res << '\n';
 }
 
 int32_t main()

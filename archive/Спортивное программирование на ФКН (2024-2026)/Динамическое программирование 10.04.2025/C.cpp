@@ -60,7 +60,6 @@ void solve()
     for (auto &i : a)
         cin >> i;
 
-    unordered_set<int> uns(a.begin(), a.end());
     dp[0] = 1;
     for (int i = 0; i < n; i++)
     {
