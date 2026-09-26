@@ -23,28 +23,45 @@ int32_t main()
     while (fin >> from >> to >> w)
         graph[from].push_back({to, w});
     fin.close();
-    vector<bool> visited(1001, 0);
-    vector<int> dist(1001, INF);
 
-    dist[1] = 0;
+    // vector<bool> visited(1001, 0);
+    vector<double> dist(1001, INF);
+
+    const int start = 1, end = 100;
+    dist[start] = 0;
+
+    set<pair<int, int>> q;
+    q.insert({dist[start], start});
     for (int i = 0; i <= 1000; i++)
     {
-        int cur_from = -1;
-        for (int u = 1; u <= 1000; u++)
-            if (!visited[u] && (cur_from == -1 || dist[u] < dist[cur_from]))
-                cur_from = u;
-
-        if (dist[cur_from] == INF || cur_from == 100)
+        pair<int, int> cur = *q.begin();
+        q.erase(cur);
+        // for (int u = 1; u <= 1000; u++)
+        //     if (!visited[u] && dist[u] < dist[v])
+        //         v = u;
+        // visited[v] = 1;
+        if (cur.second == end)
+        {
+            cout << dist[end];
             break;
+        }
 
-        visited[cur_from] = 1;
+        if (cur.first == INF)
+        {
+            cout << -1;
+            break;
+        }
 
-        for (auto &v : graph[cur_from])
-            if (dist[v.to] > dist[cur_from] + v.w)
-                dist[v.to] = dist[cur_from] + v.w;
+        for (auto &e : graph[cur.second])
+        {
+            if (cur.first + e.w < dist[e.to])
+            {
+                q.erase({dist[e.to], e.to});
+                dist[e.to] = cur.first + e.w;
+                q.insert({dist[e.to], e.to});
+            }
+        }
     }
-
-    cout << dist[100];
 
     return 0;
 }

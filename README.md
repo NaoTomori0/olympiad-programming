@@ -1,38 +1,38 @@
 # Competitive Programming & Math
 
-*Read this in other languages: [Русский](README.ru.md).*
+_Read this in other languages: [Русский](README.ru.md)._
 
 My personal repository for competitive programming training, focusing on the **ITMO Academy: pilot course** on Codeforces and mathematical foundations.
 
 ## 📂 Repository Structure
 
-* `itmo-academy/` — Solutions for ITMO Academy pilot course topics (Segment Trees, Suffix Arrays, Z-function, etc.).
-* `notes.cpp` — Theoretical notes, formulas, and cheatsheets on math and algorithms.
+- `itmo-academy/` — Solutions for ITMO Academy pilot course topics (Segment Trees, Suffix Arrays, Z-function, etc.).
+- `notes.cpp` — Theoretical notes, formulas, and cheatsheets on math and algorithms.
 
 ## 📊 Course Progress (ITMO Academy)
 
-| Topic | Status | Solved |
-| :--- | :---: | :---: |
-| 🔹 Z-function | 🔄 In Progress | 17 / 18 |
-| 🔹 Suffix Array | ⏳ Not Started | 0 / 11 |
-| 🔹 Segment Tree, Part 1 | ✅ Resolved | 17 / 17 |
-| 🔹 Segment Tree, Part 2 | ⏳ Not Started | 0 / 18 |
-| 🔹 Binary Search | ✅ Resolved | 22 / 22 |
-| 🔹 Disjoint Set Union (DSU) | ⏳ Not Started | 0 / 18 |
-| 🔹 Introduction to Graph Theory | 🔄 In Progress | 0 / 20 |
-| 🔹 Two Pointers Method | ✅ Resolved | 19 / 19 |
+| Topic                           |     Status     | Solved  |
+| :------------------------------ | :------------: | :-----: |
+| 🔹 Z-function                   | 🔄 In Progress | 17 / 18 |
+| 🔹 Suffix Array                 | ⏳ Not Started | 0 / 11  |
+| 🔹 Segment Tree, Part 1         |  ✅ Resolved   | 17 / 17 |
+| 🔹 Segment Tree, Part 2         | ⏳ Not Started | 0 / 18  |
+| 🔹 Binary Search                |  ✅ Resolved   | 22 / 22 |
+| 🔹 Disjoint Set Union (DSU)     | 🔄 In Progress | 0 / 18  |
+| 🔹 Introduction to Graph Theory | 🔄 In Progress | 0 / 20  |
+| 🔹 Two Pointers Method          |  ✅ Resolved   | 19 / 19 |
 
 ## 🛠️ Tech Stack
 
-* **Language:** C++ (GCC)
-* **Platform:** [Codeforces](https://codeforces.com)
-* **Editor:** VS Code / Vim / NeoVim
+- **Language:** C++ (GCC)
+- **Platform:** [Codeforces](https://codeforces.com)
+- **Editor:** VS Code / Vim / NeoVim
 
 ## 📝 Rules & Conventions
 
-* File names strictly follow the task letters (e.g., `A.cpp`, `B.cpp`).
-* No spaces or Cyrillic characters in file and directory paths.
-* Solutions are organized by steps to match the course curriculum.
+- File names strictly follow the task letters (e.g., `A.cpp`, `B.cpp`).
+- No spaces or Cyrillic characters in file and directory paths.
+- Solutions are organized by steps to match the course curriculum.
 
 ## 📄 License
 
